@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="./javascript.js"></script>
+    <title>Document</title>
+
+    <style>
+        .head {
+
+            background-color: #3b5998;
+            min-height: 100px;
+            width: 100%;
+
+        }
+
+        h3 {
+            color: white;
+            font-family: inherit;
+            font-size: 45px;
+
+
+        }
+
+        .main {
+            font-family: inherit;
+            float: left;
+        }
+
+        label {}
+
+        .loginform {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .heading {
+            margin-left: 170px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .div1 {
+            height: 400px;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .div2 {
+            height: 500px;
+            width: 50%;
+
+        }
+
+        .main-div {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 40px;
+
+
+        }
+
+        P {
+
+            color: #0e385f;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 29px;
+            margin-top: 40px;
+            width: 450px;
+            word-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .p1 {
+            font-size: 19px;
+        }
+
+        #butn {
+            background: #41b741;
+    color: white;
+    width:190px;;
+        }
+        b{
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <div class="head">
+            <div class="main">
+                <br>
+                <div class="heading">
+                    <div>
+                        <h3>Facebook</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="loginform">
+                <div>
+                    <br>
+                    <form>
+                        <label>
+                            <b>Email or phone</b>
+                            <br>
+                            <input type="text" id="Email" value="" required>
+                        </label>
+                        <label>
+                            <b>Password</b>
+                            <br>
+                            <input type="password" id="password" type="password" required>
+                        </label>
+                        <button type="button" value="submit" onclick="show()">login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-div">
+
+            <div class="div1">
+                <div>
+
+                    <p>Facebook helps you connect and share
+                        <br>with the people in your life. </p>
+                    <img src="./images/OBaVg52wtTZ.png">
+                </div>
+            </div>
+            <div class="div2">
+                <h2>
+                    Create An Acoount
+                </h2>
+                <p class="p1">It's free and always will be.</p>
+
+                <form>
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <input type="text" placeholder="Firstname" class="form-control">
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <input type="text" placeholder="surname" class="form-control">
+
+                        </div>
+                        <br>
+                        <br>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <input type="text" placeholder="Mobile or Email" class="form-control">
+
+                        </div>
+
+                        <br>
+
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="col-md-8">
+                            <input type="text" placeholder="New Password" class="form-control">
+                        </div>
+
+                        <br>
+
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <div class="col-md-4">
+                            <label>
+                                Birthday
+                                <input type="date" name="month" class="form-control">
+                                <br>
+                                <input type="radio" name="male">male
+                                <input type="radio" name="Female">Female
+                              
+                            </label>
+
+                           
+                            <div class="col-md-6">
+                                    <button type="button" value="submit" class="btn btn-block" id="butn">Signup</button>
+        
+                                </div>
+
+                        </div>
+                    </div>
+
+                   
+
+                        
+
+
+
+
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

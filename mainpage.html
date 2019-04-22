@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./javascript.js"></script>
+</head>
+
+<style>
+    .navbar-default .navbar-collapse {
+        background-color: #3b5998;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
+
+    body {
+        background: url("./images/wallpaper-web-background-general-desktop-abstract-107149.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .scroller {
+        height: 500px;
+        width: 50%;
+        background: white;
+        text-align: -webkit-center;
+        overflow-y: scroll;
+        overflow-x: scroll;
+
+    }
+
+    .scrol {
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        color: white;
+        background-color: #3b5998;
+
+    }
+
+    p {
+        min-width: 50%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+
+
+
+    <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+                <img style="height: 20px;" src="./images/974070449c.svg">
+            </a>
+            <input type="text" placeholder="Search" style="width: 300px;margin-top: 14px; ">
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Find Friends </a>
+                </li>
+                <li>
+                    <a href="./index.html">Logout</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="background">
+        <div class="scrol">
+
+            <div class="scroller">
+                <h3>LatestNews</h3>
+
+                <p id="worldcup">
+                    World Cup trophy Has been in Pakistan and the captain of Pakistan Cricket Team
+                    <a href="javascript:void(0);" onClick="expandLoris();">
+                        <em>Click for more Details</em>
+                    </a>
+                </p>
+                <hr>
+
+                <p id="cup">
+                    World Cup trophy Has been in Pakistan and the captain of Pakistan Cricket Team
+                    <a href="javascript:void(0);" onClick="trophy()">
+                        <em>Click for more Details</em>
+                    </a>
+                </p>
+                <hr>
+
+                <p id="data">
+
+                    <a href="javascript:void(0);" onClick="expand();">
+                        <em>
+                            <img style="height: 200px;" src="./images/AsiaCup.jpg">
+                    
+                        </em>
+                        </a>
+                </p>
+                <hr>
+
+
+                <p id="team">
+                    Pakistan cricket Board Has Announced the world cup team
+                    <a href="javascript:void(0);" onClick="team()">
+                        <em>Click for more Details</em>
+                    </a>
+                </p>
+                <hr>
+
+                <p id="cup">
+                    World Cup trophy Has been in Pakistan and the captain of Pakistan Cricket Team
+                    <a href="javascript:void(0);" onClick="trophy()">
+                        <em>Click for more Details</em>
+                    </a>
+                </p>
+                <hr>
+
+                <p id="cup">
+                    World Cup trophy Has been in Pakistan and the captain of Pakistan Cricket Team
+                    <a href="javascript:void(0);" onClick="trophy()">
+                        <em>Click for more Details</em>
+                    </a>
+                </p>
+                <hr>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
